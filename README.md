@@ -98,4 +98,3 @@ Müşteri segmentlerine özel pazarlama stratejileri geliştirilebilir
 Kaynak optimizasyonu yapılabilir (değerli müşterilere odaklanma)
 
 
-[Churn.ipynb](https://github.com/user-attachments/files/23677403/Churn.ipynb)
