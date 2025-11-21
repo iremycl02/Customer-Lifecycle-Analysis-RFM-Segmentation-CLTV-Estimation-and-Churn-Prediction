@@ -1,10 +1,8 @@
-# Customer-Lifecycle-Analysis-RFM-Segmentation-CLTV-Estimation-and-Churn-Prediction
-Bu proje, e-ticaret müşterilerinin geçmiş davranışlarını analiz ederek RFM segmentasyonu oluşturur, müşteri yaşam boyu değerini (CLTV) tahmin eder ve Random Forest ile churn riskini öngörür; böylece hedefli pazarlama ve müşteri sadakati stratejilerini destekler. Müşterilerin geçmiş davranışlarına dayanarak:
+Bu proje, e-ticaret müşterilerinin davranışlarını analiz ederek hem işletmelere hem veri bilimcilerine değer katmayı amaçlamaktadır. Müşterilerin geçmiş alışveriş verileri üzerinden RFM (Recency, Frequency, Monetary) segmentasyonu yaparak farklı müşteri gruplarını belirler, BG/NBD ve Gamma-Gamma modelleri ile müşteri yaşam boyu değerini (CLTV) tahmin eder ve Random Forest sınıflandırıcı ile churn (müşteri kaybı) riskini öngörür. Elde edilen sonuçlar sayesinde yüksek riskli müşteriler erken tespit edilebilir, hedefli retention kampanyaları düzenlenebilir ve müşteri segmentlerine özel pazarlama stratejileri geliştirilebilir. Ayrıca kaynak optimizasyonu sağlanarak değerli müşterilere odaklanmak mümkün olur. Bu proje, veri odaklı karar alma süreçlerini destekleyerek müşteri sadakati ve işletme gelirini artırmayı hedeflemektedir.
 
 Hangi müşterilerin kaybedilme riski taşıdığını belirleme
 Müşterileri RFM (Recency, Frequency, Monetary) analizine göre segmentlere ayırma
 Müşteri yaşam boyu değerini (CLTV) tahmin etme
-Proaktif pazarlama stratejileri geliştirme
 
 
 Teknolojiler
@@ -47,8 +45,7 @@ Model: Random Forest Classifier
 
 Sonuçlar
 
-Model Performansı
-
+Model Performansı;
 Accuracy: %61.53
 Precision (Churn): 0.62
 Recall (Churn): 0.86
@@ -92,9 +89,8 @@ print(f"Churn Olasılığı: {churn_olasiligi[0]:.2%}")
 İş Değeri
 
 Bu model sayesinde:
+
 Yüksek riskli müşteriler erken tespit edilebilir
 Hedefli retention kampanyaları düzenlenebilir
 Müşteri segmentlerine özel pazarlama stratejileri geliştirilebilir
 Kaynak optimizasyonu yapılabilir (değerli müşterilere odaklanma)
-
-
